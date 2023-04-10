@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<title>HTML and website development
+</title>
+
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+<!--    <script src="JS/index.js" charset="utf-8"></script>-->
+
+</head>
+
+    
+<body class="twoCol">
+<div id="container">
+
+    <div id="header">
+      <h1>HTML and website development</h1>
+    
+      
+    <!-- end #header --> </div>
+
+  <div id="sidebar">
+  	<h2>Journey</h2>
+      <ul>
+      <li><a href="#task1">Task1: WWW</a></li>
+      <li><a href="#task2">Task2: HTML</a></li>
+      <li><a href="#task3">Task3: Wepages</a></li>
+      <li><a href="#task4">Task4: HTML task</a></li>
+
+      </ul>
+  </div>
+    
+  <div id="mainContent">
+      <div id="div_one">
+          <h2 id="task1">Task 1: WWW</h2>
+          <form id="task1form">
+              <p>Where are all websites stored?</p>
+              <input type="radio" id="ans1Task1" name="ques1" value="pc">
+              <label for="ans1Task1">(A) On a single computer</label><br>
+              <input type="radio" id="ans2Task1" name="ques1" value="server">
+              <label for="ans2Task1">(B) In a physical location called a server</label><br>
+              <input type="radio" id="ans3Task1" name="ques1" value="cloud">
+              <label for="ans3Task1">(C) In the cloud </label><br>
+              <input type="radio" id="ans4Task1" name="ques1" value="userPC">
+              <label for="ans4Task1">(D) On the user's computer</label> 
+              <br><br>
+              <input type="button" value="Submit" onclick="task1();">
+
+           </form>
+           <br>
+           <span id="task1Stamp"></span>
+           <span id="feedback1"></span>
+      </div>
+      <br/>
+
+      <div id="div_two">
+        <h2 id="task2">Task 2: HTML</h2>
+        <form>
+        <p>HTML stands for 
+            <select id="ansSelect1">
+                <option selected="selected" value="">Ans 1</option>
+                <option value="hyperfont">hyperfont</option>
+                <option value="hypertext">hypertext</option>
+                <option value="hyperlist">hyperlist</option>
+                <option value="hypersonic">hypersonic</option>
+            </select>
+             Markup Language. It is a standard markup language used for creating and structuring 
+            <select id="ansSelect2">
+                <option selected="selected" value="">Ans 2</option>
+                <option value="hyperfont">multimedia</option>
+                <option value="images">images</option>
+                <option value="content">content</option>
+                <option value="kangaroos">kangaroos</option>
+            </select>
+             on the web. HTML uses tags to define the structure and 
+            <select id="ansSelect3">
+                <option selected="selected" value="">Ans 3</option>
+                <option value="images">multimedia</option>
+                <option value="layout">layout</option>
+                <option value="tags">tags</option>
+                <option value="makeup">makeup</option>
+            </select>
+             of webpages, including headings, paragraphs, lists, links, images, and more. It is the foundation of most websites and is used with other web technologies like CSS and JavaScript to create dynamic, interactive 
+            <select id="ansSelect4">
+                <option selected="selected" value="">Ans 4</option>
+                <option value="multimedia">multimedia</option>
+                <option value="content">content</option>
+                <option value="webpages">webpages</option>
+                <option value="turtles">turtles</option>
+            </select>
+            
+            .</p>
+            <input type="button" value="Submit" onclick="task2();">
+        </form>
+        <span id="task2Stamp"></span>
+        <span id="feedback2"></span>
+          
+      </div>    
+      <br/>
+
+      
+      <div id="div_three">
+          <span class="title_tag">
+          <a>&lt;title&gt;For students - Kingsmead&lt;/title&gt;</a>
+          </span>         
+          <span class="head_tag">
+          <a>&lt;h1&gt;FOR STUDENTS&lt;/h1&gt;</a>
+          </span>    
+          <span class="image_tag">
+          <a>&lt;img src="images/GCSEPod.jpg" width="400px"&gt;</a>
+          </span>
+          <span class="link_tag">
+          <a>&lt;a href="https://www.kingsmeadschool.org/students/library/"&gt;Library&lt;/a&gt;</a>
+          </span>
+        
+          <h2 id="task3">Task 3: Parts of a website - Find the tags</h2>
+          <p>Hover over parts of website to see HTML code for that section.<br>Once found type in A, B, C and D associated with the code in the box.</p>
+          <p><img class="logoImage" src="images/kingsmeadStudents.png" alt="Kingsmead School"></p>
+          <p>Enter the start/end tags for A = title, B = largest heading, <br>C = hyperlink and D = image (no end tag).</p>
+
+          <form id="task3Form">
+              <label for="a1">A </label>
+              <input type="text" id="a1" name="a1"> ... <input type="text" id="a2" name="a2">
+              <label for="b1">B </label>
+              <input type="text" id="b1" name="b1"> ... <input type="text" id="b2" name="b2">
+              <br><br>
+              <label for="c1">C </label>
+              <input type="text" id="c1" name="c1"> ... <input type="text" id="c2" name="c2"> 
+              <label for="d1">D </label>
+              <input type="text" id="d1" name="d1"> <!-- ... <input type="text" id="d2" name="d2"> -->
+              <br><br>
+              
+              <input type="button" value="SUBMIT" onclick="task3();">
+          </form>
+          <br>
+          <span id="task3Stamp"></span>
+          <span id="feedback3"></span>
+          
+      </div>
+      <br/> 
+
+      <h2 id="task4">Task 4: HTML task</h2>
+      <p><a href="https://www.w3schools.com/htmL/html_basic.asp" target="_blank">Link to W3School</a>
+      </p>
+      
+      <br class="clearfloat"> 
+</div><!-- maincontent-->
+        
+        <div id="footer">
+<!--          	<p>
+
+            <a href="#">Terms &amp; Conditions</a> | 
+            <a href="#">Contact</a> |
+            <a href="#">Sitemap</a></p>
+-->
+        </div><!-- end #footer -->
+  
+
+	
+       <br class="clear">
+  </div><!-- end container -->
+    <footer>
+        <script src="JS/index.js" charset="utf-8"></script>
+    </footer> 
+    
+    
+    
+    
+</body>
+</html>

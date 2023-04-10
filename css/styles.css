@@ -1,0 +1,245 @@
+body {
+    background-color: #e6eeff; /* #e6ffcc; */
+}
+h1 {
+    margin: 0;
+    color: #ffa64d;
+    text-align: center;
+    line-height: 2em;
+}
+
+h2, h3 {
+    color: #80aaff;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+img {
+    
+}
+
+img:hover {
+   background-color: gold;
+
+}
+
+
+/****************CLASS SELECTORS****************/
+.clear{
+    clear: both;
+}
+
+.logoImage {
+/*    margin-left: 120px;*/
+    width: 600px;
+/*    border: red solid 1px;*/
+}
+
+/* feedback / warning */
+.feedback {
+    font-size: 1.2em;
+    color: #00e600;
+}
+
+
+/****************ID SELECTORS****************/
+#container {
+    margin: 0 auto;
+    width: 960px;
+    background-color: #ffffff;
+    
+}
+#header{
+    color: #80aaff;
+}
+
+#sidebar {
+    float: left;
+    padding-left: 20px;
+    width: 160px;
+/*    border: red 1px solid;*/
+    position: fixed;
+
+}
+
+#sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;    
+}
+
+#sidebar ul li a {
+    display: block;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #ffa64d;
+}
+
+#sidebar ul li a:hover {
+    background-color: #b3ccff;
+}
+
+#mainContent {
+    margin-left: 200px;
+/*
+    border: red 1px solid;
+    width: 600px;
+*/
+}
+
+/*Task 3: Parts of a website*/
+#div_one, #div_two, #div_three,  #div_four {
+    position: relative;
+/*    border: blue 1px solid;*/
+    margin-right: 0;
+    font-family: monospace;
+    font-size: 1.2em;
+}
+
+ #div_two {
+     line-height: 1.5em;
+     text-align: justify;
+     width: 550px;
+}
+
+/** TITLE TAG **/
+#div_three .title_tag a{
+    position: absolute;
+    text-indent: -1000em;
+    left: 0px;
+    top: 110px;
+    display: block;
+    padding: 10px;
+    width: 340px;
+}
+#div_three .title_tag a:hover{
+    text-indent: 0;
+    left: 160px;
+    padding: 10px;
+    width: 180px;
+    background-color: antiquewhite;
+    border: black solid 1px;
+}
+
+/** HEADING TAG **/
+#div_three .head_tag a{
+    position: absolute;
+    text-indent: -1000em;
+    left: 250px;
+    top: 320px;
+    display: block;
+    padding: 10px;
+    width: 400px;
+}
+#div_three .head_tag a:hover{
+    text-indent: 0;
+    left: 300px;
+    top: 300px;
+    padding: 10px;
+    width: 200px;
+    background-color: antiquewhite;
+    border: black solid 1px;
+}
+
+/** IMAGE **/
+#div_three .image_tag a{
+    position: absolute;
+    text-indent: -1000em;
+    left: 150px;
+    top: 500px;
+    display: block;
+    padding: 10px;
+    width: 500px;
+    height: 50px;
+}
+
+#div_three .image_tag a:hover{
+    text-indent: 0;
+    left: 170px;
+    top: 450px;
+    padding: 10px;
+    width: 400px;
+    height: 25px;
+    background-color: antiquewhite;
+    border: black solid 1px;
+}
+
+/** HYPERLINK **/
+#div_three .link_tag a{
+    position: absolute;
+    text-indent: -1000em;
+    left: 0px;
+    top: 550px;
+    display: block;
+    padding: 10px;
+    width: 180px;
+    height: 50px;
+}
+#div_three .link_tag a:hover{
+    text-indent: 0;
+    left: 0px;
+    padding: 10px;
+    width: 650px;
+    height: 22px;
+    top: 550px;
+    background-color: antiquewhite;
+    border: black solid 1px;
+}
+
+
+/****************FORM SELECTORS****************/
+#div_three input{
+    width: 6em;
+}
+
+select {
+    color: red;
+    font-size: 0.8em;
+}
+
+/**************** ID STAMPS ****************/
+#task1Stamp {
+    position: absolute;
+    display: block;
+    right: 220px;
+    top: 50px;
+    
+    width: 150px;
+    height:150px;
+}
+
+#task2Stamp {
+    position: absolute;
+    display: block;
+    right: -200px;
+    top: 50px;
+
+}
+
+#task3Stamp {
+    position: absolute;
+    display: block;
+    right: 100px;
+    top: 600px;
+    width: 150px;
+    height:150px;
+}
+
+/**************** ID STAMPS ****************/
+
+#feedback1, #feedback2, #feedback3  {
+    color: red;
+    font-size: 1.2em;
+}
+
+
