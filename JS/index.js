@@ -146,14 +146,12 @@ function addYesImage1() {
 
 // Task 2 image - adds results stamp
 function addNoImage2() {
-  alert("NO IMAGE");
   var img = document.createElement("img");
   img.src = "images/no-thumb.jpg";
   var src = document.getElementById("task2Stamp")
   src.appendChild(img);
 }
 function addYesImage2() {
-  alert("THUMBS UP");
   var img = document.createElement("img");
   img.src = "images/yes-thumb.jpg";
   var src = document.getElementById("task2Stamp")
